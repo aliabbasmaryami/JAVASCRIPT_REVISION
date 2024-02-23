@@ -144,20 +144,79 @@
         //     }
         // }
 
-        let temperature = 30;
-        if(temperature < 0){
-            console.log("exteremly cold");
-        }
-        else if(temperature < 15){
-            console.log("cold today")
-        }
-        else if(temperature < 20){
-            console.log("turn on Ac")
-        }
-        else if(temperature < 31){
-            console.log("lets go to swim")
-        }
-        else{
-            console.log("to hot")
-        }
+        // let temperature = 30;
+        // if(temperature < 0){
+        //     console.log("exteremly cold");
+        // }
+        // else if(temperature < 15){
+        //     console.log("cold today")
+        // }
+        // else if(temperature < 20){
+        //     console.log("turn on Ac")
+        // }
+        // else if(temperature < 31){
+        //     console.log("lets go to swim")
+        // }
+        // else{
+        //     console.log("to hot")
+        // }
 
+        // Swithch Statement///////
+
+        //  let Day = 3
+        //  switch(Day){
+        //     case 0 :
+        //     console.log("Sunday");
+        //     break;
+        //     case 1 :
+        //     console.log("monday");
+        //     break;
+        //     case 2 :
+        //     console.log("tuesday");
+        //     break;
+        //     case 3 :
+        //     console.log("Wednesday");
+        //     break;
+        //     case 4 :
+        //     console.log("thursday");
+        //     break;
+        //     case 5 :
+        //     console.log("friday");
+        //     break;
+        //     case 6 :
+        //     console.log("friday");
+        //     break;
+        //     case 7 :
+        //     console.log("friday");
+        //     break;
+        //     default :
+        //     console.log("invalid day")
+        //  }
+
+        // loops in javascript///////////////
+
+    // While loop/////
+    // let num = 10;
+    // let total = 0
+    // let i = 0;
+    // while (i<=10) {
+    //     total = total + i 
+    //     i++
+    // }
+    // console.log(total);
+
+    // let num = 20;
+    // let totol = 0
+    // let i= 0;
+    // while(i<=20){
+    //     totol=totol +i
+    //     i++
+    // }
+    // console.log(totol);
+
+    // for loop//-----------
+
+    for(let i= 0; i<=20; i++){
+        console.log(i)
+    }
+    
