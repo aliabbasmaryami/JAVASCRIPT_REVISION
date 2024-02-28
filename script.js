@@ -220,6 +220,81 @@
     //     console.log(i)
     // }
 
-    for (let i=1; i<=10; i++){
-        console.log(i)
+    // for (let i=1; i<=10; i++){
+    //     console.log(i)
+    // }
+    // Array in javascript
+    // let fruits = ["apple", 'banana', 'mangoes'];
+    // fruits[1]= "pineapple"
+    // console.log(fruits);
+
+    // let subj = ["math",'computer',"english","urdu"]
+    // subj[2] = "ict";
+    // console.log(subj)
+    // console.log(typeof subj)
+    // console.log(Array.isArray(subj))
+
+    // let arr = ["hira", "seema", "semi","nayab"]
+    // let obj ={};  //object literal
+    // console.log(arr);
+    // console.log(typeof obj)
+    // console.log(Array.isArray(obj))
+
+    // push mehods/////////
+
+    // let fruits = ["apple", 'banana', 'mangoes'];
+    // fruits.push("graps","apple","orange")
+    // console.log(fruits);
+
+    // pop methods////////
+
+    //  let fruits = ["apple", 'banana', 'mangoes',"pineaple","orange","walnuts"];
+    //  fruits.pop(fruits)
+    //  console.log(fruits);
+     
+    // unshift methods///////////
+    // let subj = ["math","English","urdu","ict"]
+    // subj.unshift("database","networking","operatingSystem")
+    // console.log(subj);
+
+    // shiftMethods//////////
+        //  let subj = ["math","English","urdu","ict"];
+        //  subj.shift()
+        //  console.log(subj)
+        // how to clone arrays in javascript.............
+    //     let array1 = ["item1", "item2"]
+      let oneMoreArray = ["item3", "item4"]
+        let array2 = [...array1, ...oneMoreArray]
+        // let array2 = array1.slice(0)
+        console.log(array1 === array2)
+         array1.push("item3")
+        console.log(array1);
+        console.log(array2)
+
+    // now we can copy the array using seprate operator nad this is the latest way to copy array....
+
+    let fruits = ["apple","banana","orange","mangoes","pineApple"]
+    // for(let i =0; i =fruits.length; i++){
+    //     console.log(i)
+    // }
+    // console.log(fruits)
+    // console.log(fruits.length)
+
+    let fruits2 = [];
+    for(let i=0; i< fruits.length; i++){
+        fruits2.push(fruits[i].toUpperCase())
     }
+    console.log(fruits2)
+
+
+
+
+
+
+
+     
+
+
+
+
+
