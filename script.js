@@ -263,29 +263,51 @@
         //  console.log(subj)
         // how to clone arrays in javascript.............
     //     let array1 = ["item1", "item2"]
-      let oneMoreArray = ["item3", "item4"]
-        let array2 = [...array1, ...oneMoreArray]
-        // let array2 = array1.slice(0)
-        console.log(array1 === array2)
-         array1.push("item3")
-        console.log(array1);
-        console.log(array2)
+    //   let oneMoreArray = ["item3", "item4"]
+    //     let array2 = [...array1, ...oneMoreArray]
+    //     // let array2 = array1.slice(0)
+    //     console.log(array1 === array2)
+    //      array1.push("item3")
+    //     console.log(array1);
+    //     console.log(array2)
 
-    // now we can copy the array using seprate operator nad this is the latest way to copy array....
+    // // now we can copy the array using seprate operator nad this is the latest way to copy array....
 
-    let fruits = ["apple","banana","orange","mangoes","pineApple"]
-    // for(let i =0; i =fruits.length; i++){
-    //     console.log(i)
+    // let fruits = ["apple","banana","orange","mangoes","pineApple"]
+    // // for(let i =0; i =fruits.length; i++){
+    // //     console.log(i)
+    // // }
+    // // console.log(fruits)
+    // // console.log(fruits.length)
+
+    // let fruits2 = [];
+    // for(let i=0; i< fruits.length; i++){
+    //     fruits2.push(fruits[i].toUpperCase())
     // }
-    // console.log(fruits)
-    // console.log(fruits.length)
+    // console.log(fruits2)
 
-    let fruits2 = [];
-    for(let i=0; i< fruits.length; i++){
-        fruits2.push(fruits[i].toUpperCase())
+    // object inside arrays
+
+    const users =[
+        {
+            userI:1,
+            name: "ali",
+            age: 22,
+
+        },
+        {
+            userI:1,
+            name: "ali",
+            age: 22,
+
+        },
+
+    ]
+    for(let user of users){
+        console.log(user)
     }
-    console.log(fruits2)
 
+    // console.log(user)
 
 
 
