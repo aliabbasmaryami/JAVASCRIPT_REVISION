@@ -288,38 +288,76 @@
 
     // object inside arrays
 
-    const users =[
-        {
-            userI:1,
-            name: "ali",
-            age: 22,
+    // const users =[
+    //     {
+    //         userI:1,
+    //         name: "ali",
+    //         age: 22,
 
-        },
-        {
-            userI:1,
-            name: "ali",
-            age: 22,
+    //     },
+    //     {
+    //         userI:1,
+    //         name: "ali",
+    //         age: 22,
 
-        },
-        {
-            userI:1,
-            name: "ali",
-            age: 22,
+    //     },
+    //     {
+    //         userI:1,
+    //         name: "ali",
+    //         age: 22,
 
-        },
-        {
-            userI:1,
-            name: "ali",
-            age: 22,
+    //     },
+    //     {
+    //         userI:1,
+    //         name: "ali",
+    //         age: 22,
 
-        },
+    //     },
 
-    ]
-    for(let user of users){
-        console.log(user)
-    }
+    // ]
+    // for(let user of users){
+    //     console.log(user)
+    // }
 
     // console.log(user)
+
+
+// function sumSalaries(salaries) {
+
+//     let sum = 0;
+//     for (let salary of Object.values(salaries)) {
+//       sum += salary;
+//     }
+  
+//     return sum; // 650
+//   }
+  
+//   let salaries = {
+//     "John": 100,
+//     "Pete": 300,
+//     "Mary": 250
+//   };
+  
+//   alert( sumSalaries(salaries) ); 
+
+function sumSalaries(salaries) {
+
+    let sum = 0;
+    for (let salary of Object.values(salaries)) {
+      sum += salary;
+    }
+  
+    return sum;
+  }
+  
+  let salaries = {
+    "Aly": 30000,
+    "faxan": 30000,
+    "sheryar": 30000,
+    "sayan": 45000
+  };
+  
+  prompt( sumSalaries(salaries)); 
 
 
 
