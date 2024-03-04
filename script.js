@@ -340,24 +340,46 @@
   
 //   alert( sumSalaries(salaries) ); 
 
-function sumSalaries(salaries) {
+// function sumSalaries(salaries) {
 
-    let sum = 0;
-    for (let salary of Object.values(salaries)) {
-      sum += salary;
-    }
+//     let sum = 0;
+//     for (let salary of Object.values(salaries)) {
+//       sum += salary;
+//     }
   
-    return sum;
-  }
+//     return sum;
+//   }
   
-  let salaries = {
-    "Aly": 30000,
-    "faxan": 30000,
-    "sheryar": 30000,
-    "sayan": 45000
-  };
+//   let salaries = {
+//     "Aly": 30000,
+//     "faxan": 30000,
+//     "sheryar": 30000,
+//     "sayan": 45000
+//   };
   
-  prompt( sumSalaries(salaries)); 
+//   prompt( sumSalaries(salaries)); 
+
+let sum = (a, b) => a + b;
+
+/* This arrow function is a shorter form of:
+
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+
+alert( sum(1, 2) ); // 3
+
+let sub = (a, b) => a - b;
+
+/* This arrow function is a shorter form of:
+
+let sum = function(a, b) {
+  return a + b;
+};
+*/
+
+alert( sum(4, 2) ); // 3
 
 
 
