@@ -379,17 +379,22 @@ let sum = function(a, b) {
 };
 */
 
-alert( sum(4, 2) ); // 3
+// alert( sum(4, 2) ); // 3
 
 
-let age = prompt("What is your age?", 18);
+// let age = prompt("What is your age?", 18);
 
-let welcome = (age < 18) ?
-  () => alert('Hello!') :
-  () => alert("Still Single!");
+// let welcome = (age < 18) ?
+//   () => alert('Hello!') :
+//   () => alert("Still Single!");
 
-welcome();
+// welcome();
+let str = "123";
+alert(typeof str); // string
 
+let num = Number(str); // becomes a number 123
+
+alert(typeof num); // number
 
 
 
