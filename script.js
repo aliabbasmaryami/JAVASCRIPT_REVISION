@@ -389,12 +389,64 @@ let sum = function(a, b) {
 //   () => alert("Still Single!");
 
 // welcome();
-let str = "123";
-alert(typeof str); // string
+// let str = "123";
+// alert(typeof str); // string
 
-let num = Number(str); // becomes a number 123
+// let num = Number(str); // becomes a number 123
 
-alert(typeof num); // number
+// alert(typeof num); // number\
+
+
+// function in javascsript////////////////
+
+// function decelration in javascript
+function happybirthdaysayan(){
+  console.log("happy birth to you");
+
+}
+happybirthdaysayan()
+
+
+function addnumb(a, b) {
+  return a + b;
+}
+console.log(addnumb(2, 9));
+
+// function expressionin javascript//////
+
+const happybirthdayfazan = function (){
+  console.log("happy birth to you");
+}
+happybirthdayfazan()
+
+const sumthreenum = function(num1,num2,num3){
+  return num1+num2+num3
+}
+const answer = sumthreenum(30,20,50)
+console.log(sumthreenum); 
+
+// Arrow function in javascript////////////
+const happybirthdayAli = () =>{
+  console.log("happy birth to you Ali");
+}
+happybirthdayAli()
+
+const findTarget = (array, target)=>{
+  for(let i = 0; i < array.length; i++){
+    if(array[i] === target){
+      return i
+    }
+  }
+  return -6
+}
+
+// default parameters in javascript////////
+
+const addtwonumb = (a,b=2) =>{
+return a+b
+}
+const ans = addtwonumb(9,10)
+console.log(ans);
 
 
 
