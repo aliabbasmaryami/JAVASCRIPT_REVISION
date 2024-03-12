@@ -359,18 +359,18 @@
   
 //   prompt( sumSalaries(salaries)); 
 
-let sum = (a, b) => a + b;
+// let sum = (a, b) => a + b;
 
-/* This arrow function is a shorter form of:
+// /* This arrow function is a shorter form of:
 
-let sum = function(a, b) {
-  return a + b;
-};
-*/
+// let sum = function(a, b) {
+//   return a + b;
+// };
+// */
 
-alert( sum(1, 2) ); // 3
+// alert( sum(1, 2) ); // 3
 
-let sub = (a, b) => a - b;
+// let sub = (a, b) => a - b;
 
 /* This arrow function is a shorter form of:
 
@@ -400,53 +400,85 @@ let sum = function(a, b) {
 // function in javascsript////////////////
 
 // function decelration in javascript
-function happybirthdaysayan(){
-  console.log("happy birth to you");
+// function happybirthdaysayan(){
+//   console.log("happy birth to you");
 
+// }
+// happybirthdaysayan()
+
+
+// function addnumb(a, b) {
+//   return a + b;
+// }
+// console.log(addnumb(2, 9));
+
+// // function expressionin javascript//////
+
+// const happybirthdayfazan = function (){
+//   console.log("happy birth to you");
+// }
+// happybirthdayfazan()
+
+// const sumthreenum = function(num1,num2,num3){
+//   return num1+num2+num3
+// }
+// const answer = sumthreenum(30,20,50)
+// console.log(sumthreenum); 
+
+// // Arrow function in javascript////////////
+// const happybirthdayAli = () =>{
+//   console.log("happy birth to you Ali");
+// }
+// happybirthdayAli()
+
+// const findTarget = (array, target)=>{
+//   for(let i = 0; i < array.length; i++){
+//     if(array[i] === target){
+//       return i
+//     }
+//   }
+//   return -6
+// }
+
+// // default parameters in javascript////////
+
+// const addtwonumb = (a,b=2) =>{
+// return a+b
+// }
+// const ans = addtwonumb(9,10)
+// console.log(ans);
+
+// importnat arrys mehhods in javscript ///////////////
+//  forEach,
+//  map methods,
+//  filters,
+//  Reducers
+
+// For Each in reactjs
+
+const numbers = [1,2,3,4,5,7]
+function myfunc(number, index){
+  console.log(`index is ${index} number is ${number}`)
+  // console.log(`${number}*2 ={number * 2}`);
 }
-happybirthdaysayan()
+// for(let i =0; i <= numbers.length i++){
+//   myfun(numbers[i],i)
+// }
+// numbers.forEach(myfunc)
 
+// const number = [2,3,4,5]
 
-function addnumb(a, b) {
-  return a + b;
+// number.forEach(function(number, index){
+//   console.log(number*5 ,index);
+// })
+
+const num = [1,2,3,4]
+function myfuncc(number ,index){
+  console.log(`number is ${number}, index is ${index}`);
 }
-console.log(addnumb(2, 9));
-
-// function expressionin javascript//////
-
-const happybirthdayfazan = function (){
-  console.log("happy birth to you");
+for(let i =0; i<= num.length; i++){
+  myfuncc(num[i] , i)
 }
-happybirthdayfazan()
-
-const sumthreenum = function(num1,num2,num3){
-  return num1+num2+num3
-}
-const answer = sumthreenum(30,20,50)
-console.log(sumthreenum); 
-
-// Arrow function in javascript////////////
-const happybirthdayAli = () =>{
-  console.log("happy birth to you Ali");
-}
-happybirthdayAli()
-
-const findTarget = (array, target)=>{
-  for(let i = 0; i < array.length; i++){
-    if(array[i] === target){
-      return i
-    }
-  }
-  return -6
-}
-
-// default parameters in javascript////////
-
-const addtwonumb = (a,b=2) =>{
-return a+b
-}
-const ans = addtwonumb(9,10)
-console.log(ans);
 
 
 
