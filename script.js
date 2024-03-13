@@ -456,11 +456,11 @@ let sum = function(a, b) {
 
 // For Each in reactjs
 
-const numbers = [1,2,3,4,5,7]
-function myfunc(number, index){
-  console.log(`index is ${index} number is ${number}`)
-  // console.log(`${number}*2 ={number * 2}`);
-}
+// const numbers = [1,2,3,4,5,7]
+// function myfunc(number, index){
+//   console.log(`index is ${index} number is ${number}`)
+//   // console.log(`${number}*2 ={number * 2}`);
+// }
 // for(let i =0; i <= numbers.length i++){
 //   myfun(numbers[i],i)
 // }
@@ -472,18 +472,67 @@ function myfunc(number, index){
 //   console.log(number*5 ,index);
 // })
 
-const num = [1,2,3,4]
-function myfuncc(number ,index){
-  console.log(`number is ${number}, index is ${index}`);
-}
-for(let i =0; i<= num.length; i++){
-  myfuncc(num[i] , i)
-}
+// const num = [1,2,3,4]
+// function myfuncc(number ,index){
+//   console.log(`number is ${number}, index is ${index}`);
+// }
+// for(let i =0; i<= num.length; i++){
+//   myfuncc(num[i] , i)
+// }
+
+// map mrhtodsn in javascripts//////////////////////
+// const numbers = [2,3,4,4]
+
+// const square = function(number){
+//   return number* number
+// }
+// const squarenumber = numbers.map(square)
+// console.log(squarenumber);
+
+// const people = [
+//   {
+//     name: "ali", age: 23,
+//   },
+//   {
+//     name: "shah", age: 20
+//   },
+//   {
+//     name: "mawad",age:23
+//   }
+// ]
+// // const names = people.map(person => person.name)
+// // const age = people.map(person =>person.age)
+// // console.log(names,age);
+// const peoplewithId = people.map((person,index)=>({...person, id: index + 1}))
+// console.log(peoplewithId);
 
 
+// filter methods in javascript///////
+// const numbers = [1,2,4,6,7,8,12,14]
+// const evenNumber = number.filter = (number) =>{
+//   return number % 2 === 0;
+// }
+// console.log(evenNumber)
 
+// const numbers = [1, 2, 4, 6,20,40, 7, 8, 12, 14];
 
-     
+// const evenNumbers = numbers.filter(number => {
+//   return number % 2 === 0;
+// });
+
+// console.log(evenNumbers);
+
+// const numbers = [1,2,3,4,5,6,3,7,8,20]  
+
+// const sum = numbers.reduce((accumulator,currentValue)=>{
+//   return accumulator + currentValue
+// })
+// console.log(sum);
+
+const number = [1,2,3,4,5]
+number.sort()
+console.log(number);
+
 
 
 
