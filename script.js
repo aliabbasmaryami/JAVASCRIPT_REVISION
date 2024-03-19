@@ -529,11 +529,22 @@ let sum = function(a, b) {
 // })
 // console.log(sum);
 
-const number = [1,2,3,4,5]
-number.sort()
-console.log(number);
+// const number = [1,2,3,4,5]
+// number.sort()
+// console.log(number);
 
 
+// find mehtods in javascripts////////
+
+
+const myarry = ["hello","cat","dog","monkey"]
+
+function isLength3(string){
+    return string.isLength === 3
+
+}
+const ans = myarry.find(isLength3)
+console.log(nas);
 
 
 
