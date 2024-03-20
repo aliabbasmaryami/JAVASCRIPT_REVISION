@@ -537,14 +537,31 @@ let sum = function(a, b) {
 // find mehtods in javascripts////////
 
 
-const myarry = ["hello","cat","dog","monkey"]
+// const myarry = ["hello","cat","dog","monkey"]
 
-function isLength3(string){
-    return string.isLength === 3
+// function isLength3(string){
+//     return string.isLength === 3
 
-}
-const ans = myarry.find(isLength3)
-console.log(nas);
+// }
+// const ans = myarry.find(isLength3)
+// console.log(nas);
+
+// finf methods
+
+const users = [
+    {
+        userId :1, name:"ali"
+    },
+    {
+        userId :2, name:"abs"
+    },
+    {
+        userId :3, name:"aliabs"
+    }
+]
+
+const myUser = users.find((users)=>users.userId===1)
+console.log(myUser);
 
 
 
