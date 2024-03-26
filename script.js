@@ -548,20 +548,37 @@ let sum = function(a, b) {
 
 // finf methods
 
-const users = [
-    {
-        userId :1, name:"ali"
-    },
-    {
-        userId :2, name:"abs"
-    },
-    {
-        userId :3, name:"aliabs"
-    }
-]
+// const users = [
+//     {
+//         userId :1, name:"ali"
+//     },
+//     {
+//         userId :2, name:"abs"
+//     },
+//     {
+//         userId :3, name:"aliabs"
+//     }
+// ]
 
-const myUser = users.find((users)=>users.userId===1)
-console.log(myUser);
+// const myUser = users.find((users)=>users.userId===1)
+// console.log(myUser);
+
+// splice methods
+
+const myarry = ["item1","item2","item3"]
+const deleteItem = myarry.splice(1,2, "Ali")
+console.log("deleteItem",deleteItem);
+console.log(myarry)
+
+// Set methods
+
+const myshrt = [1,2,3,2,4,3,5,2,6]
+const uniqueElements = new Set(myshrt)
+let length= 0;
+for(let Elements of uniqueElements){
+    length++
+}
+console.log(length);
 
 
 
