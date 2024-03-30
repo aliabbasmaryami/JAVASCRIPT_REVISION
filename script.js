@@ -565,20 +565,36 @@ let sum = function(a, b) {
 
 // splice methods
 
-const myarry = ["item1","item2","item3"]
-const deleteItem = myarry.splice(1,2, "Ali")
-console.log("deleteItem",deleteItem);
-console.log(myarry)
+// const myarry = ["item1","item2","item3"]
+// const deleteItem = myarry.splice(1,2, "Ali")
+// console.log("deleteItem",deleteItem);
+// console.log(myarry)
 
-// Set methods
+// // Set methods
 
-const myshrt = [1,2,3,2,4,3,5,2,6]
-const uniqueElements = new Set(myshrt)
-let length= 0;
-for(let Elements of uniqueElements){
-    length++
-}
-console.log(length);
+// const myshrt = [1,2,3,2,4,3,5,2,6]
+// const uniqueElements = new Set(myshrt)
+// let length= 0;
+// for(let Elements of uniqueElements){
+//     length++
+// }
+// console.log(length);
+
+class User {
+
+    constructor(name) {
+      this.name = name;
+    }
+  
+    sayHi() {
+      alert(this.name);
+    }
+  
+  }
+  
+  // Usage:
+  let user = new User("John");
+  user.sayHi();
 
 
 
